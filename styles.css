@@ -1,0 +1,58 @@
+body {
+  padding-left: 15px;
+}
+
+.redtop {
+  height: 100px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blacktop {
+  width: 80%;
+  height: 40px;
+  background: black;
+}
+
+.main-content {
+  height: 1200px;
+  background: blue;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.yellow-icons {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-left: -40px;
+}
+
+.icon {
+  margin-top: 40px;
+  margin-left: 40px;
+  background: yellow;
+  height: 150px;
+  width: 150px;
+  list-style: none;
+}
+
+.one:hover {
+  background: white;
+}
+
+.two:hover {
+  background: cyan;
+}
+
+.three:hover {
+  background: red;
+}
+
+.footer {
+  height: 100px;
+  background: green;
+}
